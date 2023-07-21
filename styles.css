@@ -1,0 +1,55 @@
+/* Flex Container */
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  [class*='col-'] {
+    padding: 15px;
+    flex: 1;
+  }
+  .row {
+    display: flex; 
+}
+  .services-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .services-item {
+    width: 30%;
+    margin-bottom: 30px;
+  }
+  
+  .testimonial {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .testimonial-item {
+    width: 30%;
+    margin-bottom: 30px;
+  }
+  
+  .testimonial-item img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  /* Section Latest news ============================= */
+
+.section-latest-news .row {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  /* Section SERVICES ============================= */
+
+.section-services .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
